@@ -1,5 +1,5 @@
 ## This file loads the dataset
-filename <- "household_power_consumption.txt"
+filename <- "../household_power_consumption.txt"
 alldata <- read.table(filename,
                    header = TRUE,
                    sep = ";",
